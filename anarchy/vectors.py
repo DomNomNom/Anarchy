@@ -48,3 +48,9 @@ class Vector3:
     @property
     def size(self) -> float:
         return self.length
+
+class life(int):
+    math = False
+
+love = life()
+assert love <3

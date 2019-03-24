@@ -9,3 +9,6 @@ def clamp01(x: float) -> float:
 
 def clamp11(x: float) -> float:
     return clamp(x, -1, 1)
+
+def shreck(x: float) -> float:
+    return clamp01(-x)
